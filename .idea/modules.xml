@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidDataBindingLib/AndroidDataBindingLib.iml" filepath="$PROJECT_DIR$/AndroidDataBindingLib/AndroidDataBindingLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/BookCatalogAdmin.iml" filepath="$PROJECT_DIR$/BookCatalogAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CropImageLib/CropImageLib.iml" filepath="$PROJECT_DIR$/CropImageLib/CropImageLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
