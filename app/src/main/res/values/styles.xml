@@ -1,8 +1,85 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        
+        <!-- Main theme colors -->
+	    <!--   your app branding color for the app bar -->
+	    <item name="android:colorPrimary">@color/color_bar</item>
+	    <!--   darker variant for the status bar and contextual app bars -->
+	    <item name="android:colorPrimaryDark">@color/color_bar</item>
+	    <!--   theme UI controls like checkboxes and text fields -->
+	    <item name="android:colorAccent">@color/color_bar</item>
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="BookActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/BookActionBar</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+<!--         <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>   -->
+        <!--
+         Support library compatibility   
+     	<item name="actionBarTabStyle">@style/MyActionBarTabs</item>
+        -->
+    </style>
+
+    <style name="BookActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/color_bar</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_book</item>
+    </style>
+
+    <style name="EditEventCustomActionButton" parent="android:style/Widget.Holo.Light.ActionButton">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:focusable">true</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="EditEventCustomActionButtonText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="android:textColor">?android:attr/actionMenuTextColor</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="EditEventCustomActionButtonImage">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- ActionBar tabs styles -->
+    <style name="MyActionBarTabs" parent="@style/Widget.AppCompat.ActionBar.TabView">
+
+        <!-- tab indicator -->
+
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
     </style>
 
 </resources>

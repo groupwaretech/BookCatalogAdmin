@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="label_code">Código</string>
+<string name="label_tittle">Título</string>
+<string name="label_author">Autor(s)</string>
+<string name="label_element_type">Tipo</string>
+<string name="label_categories">Categorias</string>
+<string name="label_year">Publicación</string>
+<string name="label_description">Resumen</string>
+
+<string name="label_language_content">Lenguaje</string>
+<string name="label_isbn">ISBN</string>
+<string name="label_physical_description">Descripción física</string>
+
+<string name="dialog_message_register">¿Desea realizar el registro?</string>
+<string name="dialog_confirm_register">Registro realizado</string>
+<string name="dialog_error_register">Se presentó un error, intente de nuevo</string>
+    
+</resources>

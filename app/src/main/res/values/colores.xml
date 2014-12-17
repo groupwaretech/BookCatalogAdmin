@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_bar">@color/green</color>
+    <color name="blue">#1a8cff</color>
+    <color name="blue_01">#a4caff</color>
+    <color name="green">#0f9d58</color>
+    <color name="green_01">#cfd71e</color>
+    <color name="green_02">#72cb22</color>
+    <color name="green_03">#62ae1d</color>
+    <color name="grey">#a1a1a1</color>
+    <color name="grey_01">#32332f</color>
+    <color name="light_purple">#cfa0e9</color>
+    <color name="purple">#7d25ac</color>
+    <color name="dark">#333</color>
+    <color name="app_background">#333</color>
+    <color name="white">#fff</color>
+    <color name="light_red">#ba0305</color>
+    <color name="dark_red">#9d0c0f</color>
+    <color name="text_tab_selected">#5d5d5d</color>
+    <color name="text_tab_unselected">#838183</color>
+    <color name="green_dark">#0d4824</color>
+    <color name="grey_light">#e9ebf3</color>
+    <color name="orange">#ff3c1f</color>
+    <color name="pink">#ff6699</color>
+    <color name="brown">#632d30</color>
+    <color name="purple_02">#b00051</color>
+
+    <color name="theme_accent">#ff4081</color>
+    <color name="theme_default_primary_dark">#3f51b5</color>
+    
+    
+
+</resources>

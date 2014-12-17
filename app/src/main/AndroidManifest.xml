@@ -2,19 +2,49 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.groupware.bookcatalogadmin" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".RegisterElementActivity"
+            android:label="@string/title_activity_register_element" >
+        </activity>
+        <activity
+            android:name=".EditElementActivity"
+            android:label="@string/title_activity_register_element" >
+        </activity>
+        <activity android:name="eu.janmuller.android.simplecropimage.CropImage" />
+        <activity
+            android:name=".ViewElementActivity"
+            android:label="@string/title_activity_view_element" >
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/title_activity_category" >
+        </activity>
+        <activity
+            android:name=".ListBookCatalogActivity"
+            android:label="@string/title_activity_list_book_catalog" >
         </activity>
     </application>
 

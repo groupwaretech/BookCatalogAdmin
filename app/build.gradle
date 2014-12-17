@@ -17,12 +17,21 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    packagingOptions {
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.2'
+    compile 'com.android.support:recyclerview-v7:21.0.2'
     compile 'com.android.support:cardview-v7:21.0.2'
+    compile files('libs/commons-logging-1.1.1.jar')
+    compile files('libs/httpcore-4.1.4.jar')
+    compile files('libs/httpmime-4.1.3.jar')
+    compile files('libs/jackson-mini-1.9.11.jar')
     compile project(':AndroidDataBindingLib')
     compile project(':CropImageLib')
 }

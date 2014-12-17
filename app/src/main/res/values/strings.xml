@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">BookCatalogAdmin</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Biblioteca</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_register_element">RegisterElementActivity</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_accept">Aceptar</string>
+    <string name="button_search">Buscar</string>
+    <string name="button_new">Nuevo</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_accept">Aceptar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_new">Nuevo</string>
+    <string name="action_edit">Editar</string>
+    <string name="album_name">BookAlbum</string>
+    <string name="title_activity_view_element">ViewElementActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_add_category">Agregar categoría</string>
+    <string name="title_activity_list_book_catalog">ListBookCatalogActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
