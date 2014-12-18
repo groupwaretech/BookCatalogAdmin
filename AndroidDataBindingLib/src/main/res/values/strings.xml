@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">AndroidDataBindingLib</string>
+    
+    <string name="message_required_field">Campo requerido</string>
+
+</resources>
